@@ -1,0 +1,27 @@
+nav.custon_navbar{
+    background-color: rgb(159, 176, 255) !important;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#covid{
+    animation: rotation 5s linear infinite;
+}
+
+@keyframes rotation{
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+div.top{
+    cursor: pointer;
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+}
